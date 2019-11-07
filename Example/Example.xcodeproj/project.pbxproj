@@ -31,8 +31,8 @@
 		BF7FBC831D75773900809DB0 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		BF7FBC841D75773900809DB0 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		BF7FBC851D75773900809DB0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		BF7FBC8C1D7577BB00809DB0 /* SwiftNotificationCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftNotificationCenter.swift; path = ../SwiftNotificationCenter/SwiftNotificationCenter.swift; sourceTree = "<group>"; };
-		BF7FBC8D1D7577BB00809DB0 /* WeakObjectSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeakObjectSet.swift; path = ../SwiftNotificationCenter/WeakObjectSet.swift; sourceTree = "<group>"; };
+		BF7FBC8C1D7577BB00809DB0 /* SwiftNotificationCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftNotificationCenter.swift; path = ../Sources/SwiftNotificationCenter/SwiftNotificationCenter.swift; sourceTree = "<group>"; };
+		BF7FBC8D1D7577BB00809DB0 /* WeakObjectSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeakObjectSet.swift; path = ../Sources/SwiftNotificationCenter/WeakObjectSet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

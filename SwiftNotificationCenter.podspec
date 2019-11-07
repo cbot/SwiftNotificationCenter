@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
   s.osx.deployment_target = "10.9"
   s.source       = { :git => "https://github.com/100mango/SwiftNotificationCenter.git", :tag => s.version }
-  s.source_files  = "SwiftNotificationCenter/*.swift"
+  s.source_files  = "Sources/SwiftNotificationCenter/*.swift"
   s.requires_arc = true
 end

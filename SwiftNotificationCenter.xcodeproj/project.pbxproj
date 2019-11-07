@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D996DBA7237444DE0006736E /* WeakObjectSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7989A51CDB304C00419114 /* WeakObjectSet.swift */; };
+		D996DBA8237444DE0006736E /* SwiftNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7989A71CDB30D700419114 /* SwiftNotificationCenter.swift */; };
 		DB79898F1CDB2C8A00419114 /* SwiftNotificationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = DB79898E1CDB2C8A00419114 /* SwiftNotificationCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB7989961CDB2C8A00419114 /* SwiftNotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB79898B1CDB2C8A00419114 /* SwiftNotificationCenter.framework */; };
 		DB79899B1CDB2C8A00419114 /* SwiftNotificationCenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB79899A1CDB2C8A00419114 /* SwiftNotificationCenterTests.swift */; };
-		DB7989A61CDB304C00419114 /* WeakObjectSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7989A51CDB304C00419114 /* WeakObjectSet.swift */; };
-		DB7989A81CDB30D700419114 /* SwiftNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7989A71CDB30D700419114 /* SwiftNotificationCenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,7 +80,8 @@
 				DB7989A51CDB304C00419114 /* WeakObjectSet.swift */,
 				DB7989A71CDB30D700419114 /* SwiftNotificationCenter.swift */,
 			);
-			path = SwiftNotificationCenter;
+			name = SwiftNotificationCenter;
+			path = Sources/SwiftNotificationCenter;
 			sourceTree = "<group>";
 		};
 		DB7989991CDB2C8A00419114 /* SwiftNotificationCenterTests */ = {
@@ -89,7 +90,8 @@
 				DB79899A1CDB2C8A00419114 /* SwiftNotificationCenterTests.swift */,
 				DB79899C1CDB2C8A00419114 /* Info.plist */,
 			);
-			path = SwiftNotificationCenterTests;
+			name = SwiftNotificationCenterTests;
+			path = Tests/SwiftNotificationCenterTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,8 +205,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB7989A61CDB304C00419114 /* WeakObjectSet.swift in Sources */,
-				DB7989A81CDB30D700419114 /* SwiftNotificationCenter.swift in Sources */,
+				D996DBA7237444DE0006736E /* WeakObjectSet.swift in Sources */,
+				D996DBA8237444DE0006736E /* SwiftNotificationCenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,7 +352,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SwiftNotificationCenter/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/SwiftNotificationCenter/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Mango.SwiftNotificationCenter;
@@ -370,7 +372,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SwiftNotificationCenter/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/SwiftNotificationCenter/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Mango.SwiftNotificationCenter;
@@ -383,8 +385,9 @@
 		DB7989A31CDB2C8A00419114 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = SwiftNotificationCenterTests/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Tests/SwiftNotificationCenterTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Mango.SwiftNotificationCenterTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -395,8 +398,9 @@
 		DB7989A41CDB2C8A00419114 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = SwiftNotificationCenterTests/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Tests/SwiftNotificationCenterTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Mango.SwiftNotificationCenterTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
