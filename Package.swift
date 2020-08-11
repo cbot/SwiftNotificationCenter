@@ -10,6 +10,11 @@ let package = Package(
         .library(
             name: "SwiftNotificationCenter",
             targets: ["SwiftNotificationCenter"]),
+        .library(
+            name: "SwiftNotificationCenterDynamic", 
+            type: .dynamic, 
+            targets: ["SwiftNotificationCenter"]
+        )
     ],
     dependencies: [],
     targets: [
