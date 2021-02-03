@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "SwiftNotificationCenter",
-    platforms: [.iOS(.v8), .macOS(.v10_10)],
+    platforms: [.iOS(.v9), .macOS(.v10_10)],
     products: [
         .library(
             name: "SwiftNotificationCenter",
